@@ -60,6 +60,7 @@ public class Application {
         System.out.println("Коробка с яблоками 2: " + secondAppleBox.getWeight());
         System.out.println("Коробка с яблоками 3: " + thirdAppleBox.getWeight());
 
+        System.out.println("Сравниваем коробки по весу:");
         System.out.println(secondAppleBox.compare(thirdAppleBox));
         System.out.println(thirdAppleBox.compare(thirdOrangeBox));
 
@@ -67,6 +68,7 @@ public class Application {
         System.out.println("Вес коробки с апельсинами 1: " + firstOrangeBox.getWeight());
         System.out.println("Вес коробки с апельсинами 3: " + thirdOrangeBox.getWeight());
 
+        System.out.println("Сравниваем коробки по весу после добавления фруктов в коробку:");
         System.out.println(thirdAppleBox.compare(thirdOrangeBox));
 
     }
